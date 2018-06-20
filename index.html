@@ -9,10 +9,17 @@
 <source src="xxx.mp4">
 <script>
 	var audio = document.currentScript.parentElement;
-	audio.volume = 0.1;
+	audio.volume = 0.01;
 </script>
-</video>	
-  </body>
+</video>
+    <audio autoplay loop id="video">
+        <source src="xxx.mp3" type="audio/mp3">
+<script>
+	var audio = document.currentScript.parentElement;
+	audio.volume = 0.2
+</script>
+</audio>
+</body>
 </html>
 <style>
   video#bgvid {
